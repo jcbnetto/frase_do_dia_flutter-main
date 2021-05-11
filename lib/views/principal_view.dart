@@ -19,8 +19,9 @@ class _PrincipalState extends State<Principal> {
   // IMPORTANTE!
   // As variáveis (autor e textoExemplo) abaixo deverão ser removidas e o controle dos valores dos
   // campos se dará por meio dos atributos do controlador!
-  String autor = "Autor";
-  String textoExemplo =
+
+   String autor = "Autor";
+   String textoExemplo =
       'Clique no botão abaixo para gerar uma frase que irá aparecer aqui.';
   @override
   Widget build(BuildContext context) {

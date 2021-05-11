@@ -13,7 +13,7 @@ class PrincipalController {
   var end = FraseModel();
   end = await FraseModel.obterDados();
       // Montar a string de resposta:
-      print(end.frase);
+      // print(end.frase);
      resultadoFrase = 'frase: ${end.frase}';
      resultadoAutor = 'autor: ${end.autor}';
   }
